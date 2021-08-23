@@ -1,16 +1,42 @@
-* {
-    font-family: Georgia;
-}
-
-.intro {
-    background-image: url(https://en.wikipedia.org/wiki/Fractal#/media/File:Fractal-BUTTERFLY.jpg);
-}
-
-h1 {
+body {
+    font-family: Arial, sans-serif;
+    background-color:tan;
+  }
+  
+  h1 {
+    text-align: center;
     font-weight: bold;
-    font-family: cursive;
+  }
+  
+  h2 {
+    color: rebeccapurple;
+    text-align: center;
+  }
+  
+  table {
+    border: 4px solid purple;
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  thead {
+    background-color: lightblue;
+  }
+  
+  td {
+    border-top: 2px solid blueviolet;
+    border-right: 2px solid blueviolet;
+  }
+
+  aside {
+    float: right;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    
 }
 
-h1 p {
+  .symbol {
+    font-family: monospace;
     font-style: italic;
-}
+  }

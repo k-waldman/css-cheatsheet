@@ -1,0 +1,16 @@
+* {
+    font-family: Georgia;
+}
+
+.intro {
+    background-image: url(https://en.wikipedia.org/wiki/Fractal#/media/File:Fractal-BUTTERFLY.jpg);
+}
+
+h1 {
+    font-weight: bold;
+    font-family: cursive;
+}
+
+h1 p {
+    font-style: italic;
+}

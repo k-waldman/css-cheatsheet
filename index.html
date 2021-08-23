@@ -27,7 +27,7 @@
             <thead>
                 <tr>
                     <th>Selector</th>
-                    <th>Symbol(s)</th>
+                    <th class="symbol">Symbol(s)</th>
                     <th>Usage</th>
                 </tr>    
             </thead>
@@ -35,7 +35,7 @@
             <tbody>
                 <tr>
                     <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors" target="_blank">Universal Selector</a></td>
-                    <td>* {}</td>
+                    <td class="symbol">* {}</td>
                     <td>Matches elements of any type. Useful if you want elements of your webpage to have overarching styles at low specificity to be overwritten by more specific selectors.</td>
                 </tr>
                 <tr>
@@ -45,17 +45,17 @@
                 </tr>
                 <tr>
                     <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors" target="_blank">Class Selectors</a></td>
-                    <td>.example {}</td>
+                    <td class="symbol">.example {}</td>
                     <td>Selects elements based on their Class attribute. This is denoted by a 'class=""' in the opening tag of the HTML element. As class elements can be used more than once, it is useful for styling elements that you wish to have the same semantic purpose.</td>
                 </tr>
                 <tr>
                     <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors" target="_blank">ID Selectors</a></td>
-                    <td>#example {}</td>
+                    <td class="symbol">#example {}</td>
                     <td>Selects elements based on their id attribute. This is denoted by a 'id=""' in the opening tag of the HTML element. This selectors practical difference from the class selector is that a specific id selector can only be used once. These selectors are the most specific of those that are commonly used, and thus will be often used to style individual elements on your webpage.</td>
                 </tr>
                 <tr>
                     <td>!important</td>
-                    <td>!important</td>
+                    <td class="symbol">!important</td>
                     <td>Although not specifically a selector, this rule performs a comparable function in that it overrides any other style declarations present on a given element. This should almost never be used as it is makes debugging significantly more difficult.</td>
                 </tr>        
             </tbody>
